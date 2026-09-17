@@ -1,0 +1,42 @@
+[
+    {
+        "id": "b9a6625c79cef4f0",
+        "type": "ui-led",
+        "z": "6b38931104112578",
+        "name": "",
+        "group": "",
+        "order": -1,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "states": [
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#ff0000"
+            },
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00ff00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 730,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8af4ea7760ddaa32",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard-2-ui-led": "1.1.0"
+        }
+    }
+]
